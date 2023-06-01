@@ -1,0 +1,235 @@
+.nav-logo{
+  width: 60px;
+}
+
+.header{
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./assets/ba1.jpg");
+
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: end;
+}
+
+h1{
+  text-align: center;
+}
+
+.header-content{
+  padding-left: 50%;
+  padding-right: 80px;
+  display: flex;
+  text-align: end;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.header-img{
+  filter: brightness(0.5);
+  width: 100vw;
+}
+
+@media(max-width: 768px){
+  .header-content{
+    padding: 20px
+  }
+
+  .header-content div button{
+    margin: 5px;
+  }
+}
+
+@media(max-width: 320px){
+  .header{
+    height: 100vh;
+  }
+}
+
+.oradores-badge{
+  margin: 10px;
+}
+
+.foto-orador{
+  width: 300px;
+}
+
+.oradores-h2{
+  text-align: center;
+  margin: 50px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.card:hover{
+  transition: 0.5s;
+  scale: 1.1;
+}
+
+.section-row{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0px;
+  background-color: #6c757d;
+  color: white;
+}
+
+.section-row-text{
+  padding: 30px;
+}
+
+.section-row-img{
+  width: 50%;
+}
+
+@media(max-width: 320px){
+  .section-row{
+    flex-direction: column;
+  }
+
+  .section-row-img{
+    width: 100%;
+  }
+}
+
+.form-section{
+  padding: 40px 100px;
+}
+
+@media(max-width: 320px){
+  .form-section{
+    padding: 10px
+  }
+}
+
+.form-section form input {
+  margin: 20px 0px;
+}
+
+@media(max-width: 320px){
+  .form-section form input{
+    padding: 5px
+  }
+}
+
+.form-section form button{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form-section-title{
+  text-align: center;
+}
+
+.form-div{
+  display: flex;
+}
+
+.textarea{
+  height: 80px;
+}
+
+.ticket-container{
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+@media( max-width: 768px){
+  .ticket-container{
+    margin: 20px;
+  }
+}
+
+.ticket-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px; 
+}
+
+.ticket-input{
+  width: 600px;
+  margin: 5px;
+  border: 2px solid #294396;
+  border-radius: 8px;
+}
+
+.ticket{
+  height: 150px;
+  border: 2px solid #294396;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px
+}
+
+.ticket-title{
+  font-weight: bold;
+}
+
+.ticket-select{
+  width: 100%;
+  padding: 5px;
+  color: #6c757d;
+  border-radius: 4px;
+  border-color: #6c757d;
+}
+
+.ticket-button{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#precio{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer{
+  background-color: #294396;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 30px;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul li a{
+  color: white;
+}
+
+footer ul li a:hover{
+  color: white;
+}
+
+@media(max-width: 320px){
+  footer ul{
+    flex-direction: column;
+    text-align: center;
+  }
+}
